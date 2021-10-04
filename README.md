@@ -22,16 +22,12 @@ key = value
 every line can only have one key and value or block opening/closing
 
 ```
-key = value 
+stringExample = "string text" 
 block {
-  anotherKey = anotherValue
+  double = 0.01
   nestedBlock {
-    nestedKey = nestedValue
+    nestedInteger = 10581
   }
 }
 ```
-a string value has to be enclosed in double quotes -> `string = "yeetus"`
-
-floating point numbers are easily defined with a decimal point -> `double = 0.0001`
-
-integers are the same, but without the decimal point.
+as seen above, a string value has to be enclosed in double quotes -> `string = "yeetus"`. floating point numbers are easily defined with a decimal point -> `double = 0.0001`. integers are the same, but without the decimal point.
