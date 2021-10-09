@@ -27,7 +27,8 @@ block {
   double = 0.01
   nestedBlock {
     nestedInteger = 10581
+    nestedBoolean = y
   }
 }
 ```
-as seen above, a string value has to be enclosed in double quotes -> `string = "yeetus"`. floating point numbers are easily defined with a decimal point -> `double = 0.0001`. integers are the same, but without the decimal point.
+as seen above, a string value has to be enclosed in double quotes -> `string = "yeetus"`. floating point numbers are easily defined with a decimal point -> `double = 0.0001`. integers are the same, but without the decimal point. a boolean value is defined with either y or n.
